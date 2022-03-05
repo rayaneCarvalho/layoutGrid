@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--TAG utilizada para ajustar o projeto com a tela de um celular Exp.: content="width=device-width(quer dizer que amplia de acordo com o tamanho da tela), initial-scale=1.0(quer dizer que a escala está 100%=1,0)-->
+    <title>Rayane Carvalho</title>
+    <link href="style.css" rel="stylesheet" />
+    <!-- Importando arquivo do CSS -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="icon" type="image/png"
+        href="data:image/png;base64,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" />
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+
+       <!-- <i data-feather="cloud-lightning"></i> -->
+
+        <div class="iphone-container">
+            <div class="notch"></div>
+            <h2>Juiz de Fora</h2>
+            <h4>Wednesday 17:00 PM</h4>
+
+            <i data-feather="cloud-lightning"></i>
+
+            <h1>23°</h1>
+            <h2>So, it's Stormy.</h2>
+
+            <div class="week-weather">
+                <span>Thu Sep 14</span><span>29° 13°</span> 
+                <span>Fri Sep 15</span><span>29° 13°</span> 
+                <span>Sat Sep 16</span><span>29° 13°</span>           
+            
+            </div>
+
+
+            <div class="iphone-menu"></div>
+        </div>
+        
+
+        <script>feather.replace()
+        </script>
+
+   
+</body>
+</html>
