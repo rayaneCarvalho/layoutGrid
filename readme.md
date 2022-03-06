@@ -1,6 +1,6 @@
 # Projeto Layout usando Grid
 
-Para ver o projeto ao vivo, [clique aqui](https://rayanecarvalho.github.io/layoutGrid/)
+Para ver o projeto ao vivo, [clique aqui](https://rayanecarvalho.github.io/layoutGrid/).
 
 ![Projeto Preview](https://github.com/rayaneCarvalho/layoutGrid/blob/master/assets/layout.jpeg?raw=true)
 
